@@ -5,7 +5,6 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
 gem 'rails',        '5.0.1'
 gem 'bootstrap-sass', '3.3.6'
 gem 'puma',         '3.4.0'
@@ -16,6 +15,9 @@ gem 'coffee-script-source', '1.8.0'
 gem 'jquery-rails', '4.1.1'
 gem 'turbolinks',   '5.0.1'
 gem 'jbuilder',     '2.4.1'
+gem 'carrierwave',  '1.1.0'
+gem 'mini_magick',  '4.7.0'
+gem 'fog',          '1.40.0'
 gem 'bcrypt', '3.1.11'
 gem 'faker',          '1.6.6'
 gem 'will_paginate',           '3.1.0'
